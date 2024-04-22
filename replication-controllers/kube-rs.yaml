@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: kube-rs
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kube-rs-pod
+  template:
+    metadata:
+      labels:
+        app: kube-rs-pod
+    spec:
+      containers:
+      - name: kube-rs-container
+        image: 130620/k8s-pod:latest
+        ports:
+        - containerPort: 3000

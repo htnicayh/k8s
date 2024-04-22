@@ -1,0 +1,15 @@
+{
+  "name": "k8s",
+  "version": "1.0.0",
+  "description": "This project is all about Kubernetes, an open-source platform designed to automate deploying, scaling, and operating application containers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "redis": "^4.6.13"
+  }
+}
