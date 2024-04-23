@@ -20,7 +20,8 @@ To use a volume in a pod, you need to define a volume and mount it into one or m
 | Emptydir | HostPath |
 | -------- | -------- |
 | ![EmptyDir](../static/EmptyDir.png) | ![HostPath](../static/Hostpath.png) |
-| ------------------------------------------------------------------------- |
+
+
 |                               Cloud Storage                               |
 |                   ![CloudStorage](../static/CloudStorage.png)             |
 | ------------------------------------------------------------------------- |
