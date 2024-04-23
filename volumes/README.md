@@ -23,19 +23,21 @@ To use a volume in a pod, you need to define a volume and mount it into one or m
 
 
 <div align="center">
+
 | Cloud Storage |
 | ------------- |
 | ![CloudStorage](../static/CloudStorage.png) |
 
 | Assumption |
 | ---------- |
-| ![CloudStorage](../static/PersistentVolumes/Assumption.png) |
+| ![Assumption](../static/PersistentVolumes/Assumption.png) |
 
 | Architecture |
 | ------------ |
-| ![CloudStorage](../static/PersistentVolumes/Architecture.png) |
+| ![Architecture](../static/PersistentVolumes/Architecture.png) |
 
 | Workflows |
 | --------- |
-| ![CloudStorage](../static/PersistentVolumes/Workflows.png) |
+| ![Workflows](../static/PersistentVolumes/Workflows.png) |
+
 </div>
