@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: persistent-volume
+spec:
+  capacity:
+    storage: 10Gi
+  accessModes:
+    - ReadWriteOnce # Can be mounted y a single worker node for reading and writing
+    - ReadOnlyMany # Can be mounted by many worker nodes for reading
+  persistentVolumeReclaimPolicy: Retain
+  awsElasticBlockStore:
+    volumeID: aws-persistent-disk
+    fsType: ext4
