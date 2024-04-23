@@ -22,14 +22,14 @@ To use a volume in a pod, you need to define a volume and mount it into one or m
 | ![EmptyDir](../static/EmptyDir.png) | ![HostPath](../static/Hostpath.png) |
 
 
-|                               Cloud Storage                               |
-|                   ![CloudStorage](../static/CloudStorage.png)             |
-| ------------------------------------------------------------------------- |
-|                                 Assumption                                |
-|        ![CloudStorage](../static/PersistentVolumes/Assumption.png)        |
-| ------------------------------------------------------------------------- |
-|                                Architecture                               |
-|        ![CloudStorage](../static/PersistentVolumes/Architecture.png)      |
-| ------------------------------------------------------------------------- |
-|                                  Workflows                                |
-|         ![CloudStorage](../static/PersistentVolumes/Workflows.png)        |
+| Cloud Storage |
+| ![CloudStorage](../static/CloudStorage.png) |
+
+|  Assumption |
+| ![CloudStorage](../static/PersistentVolumes/Assumption.png) |
+
+| Architecture |
+| ![CloudStorage](../static/PersistentVolumes/Architecture.png) |
+
+| Workflows |
+| ![CloudStorage](../static/PersistentVolumes/Workflows.png) |
