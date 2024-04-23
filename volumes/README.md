@@ -22,6 +22,7 @@ To use a volume in a pod, you need to define a volume and mount it into one or m
 | ![EmptyDir](../static/EmptyDir.png) | ![HostPath](../static/Hostpath.png) |
 
 
+<div align="center">
 | Cloud Storage |
 | ------------- |
 | ![CloudStorage](../static/CloudStorage.png) |
@@ -37,3 +38,4 @@ To use a volume in a pod, you need to define a volume and mount it into one or m
 | Workflows |
 | --------- |
 | ![CloudStorage](../static/PersistentVolumes/Workflows.png) |
+</div>
